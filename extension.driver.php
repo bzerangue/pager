@@ -5,7 +5,7 @@
 		public function __construct() {
 			$this->about = array(
 				'name'         => 'Pager',
-				'version'      => '0.0.1',
+				'version'      => '1.0.0',
 				'release-date' => '2011-09-06',
 				'description'  => 'A utility class that can be used to easily generate standardized Symphony page bars for the backend.',
 				'author'       => array(
