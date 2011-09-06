@@ -7,7 +7,7 @@
 				'name'         => 'Pager',
 				'version'      => '0.0.1',
 				'release-date' => '2011-09-06',
-				'description'  => 'A utility class that can be used to easily generate standardized Symphony page bars for the backend.'
+				'description'  => 'A utility class that can be used to easily generate standardized Symphony page bars for the backend.',
 				'author'       => array(
 					'name'	  => 'Wilhelm Murdoch',
 					'website' => 'http://thedrunkenepic.com/',
