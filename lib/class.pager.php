@@ -179,8 +179,8 @@
 		 * @return XMLElement Object
 		 */
 		public function save() {
+			$ul = new XMLElement('ul');
 			if($this->totalRecords) {
-				$ul = new XMLElement('ul');
 				$ul->setAttribute('class', 'page');
 
 				$li = new XMLElement('li');
@@ -222,9 +222,8 @@
 					$li->setValue(__('Last'));
 				}
 				$ul->appendChild($li);
-
-				return $ul;
 			}
+			return $ul;
 		}
 
 		/**
