@@ -180,7 +180,7 @@
 		 */
 		public function save() {
 			$ul = new XMLElement('ul');
-			if($this->totalRecords) {
+			if($this->getTotalPages() > 1) {
 				$ul->setAttribute('class', 'page');
 
 				$li = new XMLElement('li');
